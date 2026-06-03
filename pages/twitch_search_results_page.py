@@ -40,12 +40,13 @@ class TwitchSearchResultsPage(BasePage):
         try:
         # Wait for all streamer elements to load
             elements = self.wait_for_all_elements(self.STREAMER_ITEMS)
+            self.scroll_by_fraction(fraction=0.5, times=1)
             if not elements:
                 raise Exception("No streamer items found")
             # Pick a random streamer
             random_streamer = random.choice(elements)
             # Click the selected streamer
-            random_streamer.click()
+            self.driver.execute_script("arguments[0].click();", random_streamer)
             print("Clicked on a random streamer in search results.")
         except Exception as e:
             print(f"Error selecting streamer item: {e}")

@@ -118,10 +118,3 @@ class BasePage:
         for _ in range(times):
             self.driver.execute_script(f"window.scrollBy(0, window.innerHeight * {fraction});"
             )
-
-    def wait_for_page_load(self, timeout=10):
-        WebDriverWait(self.driver, timeout).until(
-            lambda d: d.execute_script(
-                "return document.readyState"
-            ) == "complete"
-        )
