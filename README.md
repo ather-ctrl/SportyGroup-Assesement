@@ -42,8 +42,9 @@ copy paste below command in terminal/CMD, this command would run API and functio
 
 pytest -v --html=report.html --self-contained-html
 
-Please check out the attached gif.
-![https://github.com/ather-ctrl/SportyGroup-Assesement/blob/main/testrun.gif]
 post execution: 
 1. checkout report.html for pass fail count. 
 2. checkout 'screenshots' folder
+
+Please check out the attached gif.
+<img width="1370" height="675" alt="Image" src="https://github.com/user-attachments/assets/6b788a58-2bd9-421d-b0d7-afb781a0c64c" />
