@@ -47,4 +47,4 @@ post execution:
 2. checkout 'screenshots' folder
 
 Please check out the attached gif.
-<img width="1370" height="675" alt="Image" src="https://github.com/user-attachments/assets/6b788a58-2bd9-421d-b0d7-afb781a0c64c" />
+![<img width="1370" height="675" alt="Image" src="https://github.com/user-attachments/assets/6b788a58-2bd9-421d-b0d7-afb781a0c64c" />]
