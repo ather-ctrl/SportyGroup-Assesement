@@ -47,4 +47,4 @@ post execution:
 2. checkout 'screenshots' folder
 
 Please check out the attached gif.
-![<img width="1370" height="675" alt="Image" src="https://github.com/user-attachments/assets/6b788a58-2bd9-421d-b0d7-afb781a0c64c" />]
+![testRun](https://github.com/ather-ctrl/SportyGroup-Assesement/blob/503421341b2c90c66617bc051b7eb2d08c6ff22f/testrun.gif)
