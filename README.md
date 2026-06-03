@@ -16,11 +16,6 @@ This project is a UI automation framework built using:
 - python-dotenv==0.21.0  
 - webdriver-manager==4.0.1  
 
----
-
-API-Automation
- Used openbrewerydb API 
- https://www.openbrewerydb.org/documentation from the list: https://github.com/public-apis/public-apis
 
 ## 🚀 Project Setup
 
@@ -29,10 +24,10 @@ API-Automation
 git clone <your-repo-url>
 cd <project-folder>
 
-
 How To Run?:
 
 Steps-1
+--------
 After clonning the project-->Open the project in any IDE like VS code, Pycharm
 open cmd/terminal and run below commands to install necesary tools.
 pip install selenium==4.11.2 
@@ -41,7 +36,7 @@ pip install pytest-html==4.0.0rc7
 pip install python-dotenv==0.21.0 
 pip install webdriver-manager==4.0.1
 
-open CMD/terminal in IDE---> cd <SportyGroup-Assesement>
+open command prompt/terminal in any IDE---> cd <SportyGroup-Assesement>
 
 copy paste below command in terminal/CMD, this command would run API and functional tests.
 
