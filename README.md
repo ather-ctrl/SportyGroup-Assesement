@@ -44,7 +44,8 @@ pip install requests pytest
 
 open CMD/terminal in IDE---> cd <SportyGroup-Assesement>
 
-copy paste this command in terminal/CMD, this command would run API and functional tests.
+copy paste below command in terminal/CMD, this command would run API and functional tests.
+
 pytest -v --html=report.html --self-contained-html
 
 post execution:
