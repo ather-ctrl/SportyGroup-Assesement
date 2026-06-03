@@ -14,8 +14,10 @@ This project is a UI automation framework built using:
 - pytest==7.4.3  
 - pytest-html==4.0.0rc7  
 - python-dotenv==0.21.0  
-- webdriver-manager==4.0.1  
-
+- webdriver-manager==4.0.1
+  
+Please check out the attached gif.
+![testRun](https://github.com/ather-ctrl/SportyGroup-Assesement/blob/503421341b2c90c66617bc051b7eb2d08c6ff22f/testrun.gif)
 
 ## 🚀 Project Setup
 
@@ -45,6 +47,3 @@ pytest -v --html=report.html --self-contained-html
 post execution: 
 1. checkout report.html for pass fail count. 
 2. checkout 'screenshots' folder
-
-Please check out the attached gif.
-![testRun](https://github.com/ather-ctrl/SportyGroup-Assesement/blob/503421341b2c90c66617bc051b7eb2d08c6ff22f/testrun.gif)
