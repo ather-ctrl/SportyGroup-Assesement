@@ -43,7 +43,7 @@ copy paste below command in terminal/CMD, this command would run API and functio
 pytest -v --html=report.html --self-contained-html
 
 Please check out the attached gif.
-![SportyGroup-Assesement](./testrun.gif)
+![](./testrun.gif)
 post execution: 
 1. checkout report.html for pass fail count. 
 2. checkout 'screenshots' folder
